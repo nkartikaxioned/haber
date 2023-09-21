@@ -184,13 +184,13 @@ nav { display: flex; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 12px 0 0;
+  margin: 29px 0 0;
     width: 86%;
 }
 
 .selectt {
-  width: 16%;
-  height: 11px;
+  width: 55%;
+  height: 5px;
   text-indent: -9999px;
   color: #DC6227;
   outline: none;
@@ -807,6 +807,14 @@ h5 a { font-size: 26px; }
     color: #DC6227; 
     transition: .2s;
   }
+  
+  .icon a:hover { cursor: pointer; }
+
+  .hamburger span:hover { 
+    color: #DC6227;
+     cursor: pointer; 
+     transition: .2s;
+    }
 
   .about .button:hover {
     color: #DC6227;
@@ -908,7 +916,10 @@ article span a:hover {
 
 /* contact section start */
 
-.back-orange { height: 33px;}
+.back-orange {
+  height: 45px;
+  width: 8%;
+}
 
 .contact2 .wrapper { 
   flex-direction: column; 
@@ -987,7 +998,8 @@ h5 a { font-size: 20px; }
 
 .ourblog { height: 730px; }
 .ourblog-section1 { padding: 24px 3.5% 39px; }
-
+.back-orange { height: 23px;}
+.iconn::before { font-size: 18px; }
 /* ourblog section end */
 
 /* 480px end */
